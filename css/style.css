@@ -149,14 +149,20 @@ footer {
     margin-top: 50px;
     font-size: 0.9em;
     color: #777;
+    text-align: center;
 }
 
 /* Mobile version modifications */
 
 @media (max-width: 768px) {
 
+    body{
+        padding: 20px;
+    }
+
     header {
         margin-bottom: 10px;
+        padding: 20px;
     }
 
     .profile {
@@ -169,7 +175,7 @@ footer {
     }
 
     section {
-        padding: 10px;
+        padding: 1px;
         margin-bottom: 1px;
     }
 
