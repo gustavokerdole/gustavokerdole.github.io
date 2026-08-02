@@ -63,7 +63,9 @@ h1 {
 /* Navigation */
 
 nav {
-    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 nav a {
@@ -147,4 +149,40 @@ footer {
     margin-top: 50px;
     font-size: 0.9em;
     color: #777;
+}
+
+/* Mobile version modifications */
+
+@media (max-width: 768px) {
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile img {
+        width: 180px;
+    }
+
+    section {
+        padding: 10px;
+        margin-bottom: 1px;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .profile nav {
+        justify-content: center;
+    }
+
 }
